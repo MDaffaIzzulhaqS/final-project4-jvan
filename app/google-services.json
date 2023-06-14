@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "121848956290",
+    "project_id": "busreservationapp-f7bf0",
+    "storage_bucket": "busreservationapp-f7bf0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121848956290:android:e3aee6c323d394c6923b9b",
+        "android_client_info": {
+          "package_name": "com.finalprojectkelompok6.finalproject4_backup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121848956290-jsshbu1bq9io59r412cfr7jouhvjft5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_HQlWKdqu6mGDIqvoS--HT4DIFaR0QE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121848956290-jsshbu1bq9io59r412cfr7jouhvjft5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
