@@ -1,4 +1,6 @@
 package com.finalprojectkelompok6.finalproject4_backup;
 
-public class SeatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class SeatActivity extends AppCompatActivity {
 }
