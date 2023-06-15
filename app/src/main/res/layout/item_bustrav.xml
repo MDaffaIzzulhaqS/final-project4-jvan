@@ -78,7 +78,7 @@
             android:layout_marginStart="15dp"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/nunito_regular"
-            android:text="@string/probolinggo"
+            android:text="@string/purwokerto"
             android:textColor="@color/small_text"
             android:textSize="15sp"
             app:layout_constraintStart_toEndOf="@+id/time_start"

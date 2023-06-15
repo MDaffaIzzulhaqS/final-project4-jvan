@@ -13,7 +13,7 @@
         android:layout_height="120dp"
         android:layout_marginTop="40dp"
         android:contentDescription="@string/logo_bg"
-        android:src="@drawable/img_logo"
+        android:src="@drawable/logo_ebus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
-        android:text="@string/aplikasi_versi_1_0_travelgo"
+        android:text="@string/aplikasi_versi_1_0_ebusresevation"
         android:textColor="@color/black"
         android:fontFamily="@font/nunito_bold"
         android:textSize="20sp"

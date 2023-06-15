@@ -22,7 +22,7 @@
     <string name="from">From</string>
     <string name="price">Price</string>
     <string name="rp_50_000">Rp. 50.000</string>
-    <string name="probolinggo">Probolinggo</string>
+    <string name="purwokerto">Purwokerto</string>
     <string name="arrival">Arrival</string>
     <string name="book_now">Book Now</string>
     <string name="departure">Departure</string>
@@ -30,18 +30,18 @@
     <string name="name_bus">Name Bus</string>
     <string name="PaymentSucess">Transaction Success</string>
     <string name="DescriptionPayment">Yes! enjoy your bill. Don’t\nForget to check on your history</string>
-    <string name="capt_about">Travelgo merupakan sebuah aplikasi layanan transportasi yang bertujuan untuk membantu masyarakat yang ingin berpergian menggunakan bus transportasi, memesan dengan kemudahan dalam satu genggaman aplikasi. Bekerja sama dengan agen bus di indonesia yang aman dan terpercaya.</string>
+    <string name="capt_about">EBusReservation merupakan sebuah aplikasi layanan transportasi yang bertujuan untuk membantu masyarakat yang ingin berpergian menggunakan bus transportasi, memesan dengan kemudahan dalam satu genggaman aplikasi. Bekerja sama dengan agen bus di indonesia yang aman dan terpercaya.</string>
     <string name="untuk_keluhan_kritik_dan_saran_dalam_penggunaan_naplikasi_travelgo_anda_dapat_menghubungi">Untuk keluhan, kritik, dan saran dalam penggunaan\naplikasi Travelgo, Anda dapat menghubungi:</string>
-    <string name="aplikasi_versi_1_0_travelgo">Aplikasi versi 1.0 Travelgo</string>
+    <string name="aplikasi_versi_1_0_ebusresevation">EBusReservation Versi 1.0</string>
     <string name="instagram_logo">instagram_logo</string>
-    <string name="rizky_faisal_rafi">Rizky Faisal Rafi</string>
-    <string name="wahyu_adi_saputro">Wahyu Adi Saputro</string>
-    <string name="linda_uswatun_hasanah">Linda Uswatun Hasanah</string>
+    <string name="m_daffa_izzulhaq_s">Muhammad Daffa Izzulhaq Suyanto</string>
+    <string name="fanisyah_salsabila">Fanisyah Salsabila</string>
+    <string name="rendi_septia">Rendi Septia Rahman</string>
     <string name="back">back</string>
     <string name="book_a_trip">Book a trip</string>
     <string name="rating">Rating</string>
     <string name="_8_7_5">8.7/5</string>
-    <string name="terminal_probolinggo">Terminal Probolinggo</string>
+    <string name="terminal_purwokerto">Terminal Bulupitu</string>
     <string name="_17_00">17.00</string>
     <string name="_2_hours">-- 2 hours --</string>
     <string name="too">-- to --</string>
@@ -114,21 +114,23 @@
 
     <!-- array spiner -->
     <string-array name="Kota">
-        <item>-- Select Departure --</item>
-        <item>Probolinggo</item>
-        <item>Pasuruan</item>
-        <item>Surabaya</item>
+        <item>-- Pilih Keberangkatan --</item>
+        <item>Solo</item>
+        <item>Bandung</item>
+        <item>Yogyakarta</item>
+        <item>Purwokerto</item>
         <item>Malang</item>
-        <item>Gresik</item>
+        <item>Surabaya</item>
 
     </string-array>
     <string-array name="Tujuan">
-        <item>-- Select Arrival --</item>
-        <item>Probolinggo</item>
-        <item>Pasuruan</item>
-        <item>Surabaya</item>
+        <item>-- Pilih Kedatangan --</item>
+        <item>Solo</item>
+        <item>Bandung</item>
+        <item>Yogyakarta</item>
+        <item>Purwokerto</item>
         <item>Malang</item>
-        <item>Gresik</item>
+        <item>Surabaya</item>
 
     </string-array>
 </resources>

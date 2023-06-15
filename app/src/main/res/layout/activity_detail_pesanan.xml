@@ -136,7 +136,7 @@
                     android:layout_marginTop="11dp"
                     android:layout_marginBottom="95dp"
                     android:fontFamily="@font/nunito_bold"
-                    android:text="@string/probolinggo"
+                    android:text="@string/purwokerto"
                     android:textColor="@color/blue" />
 
                 <TextView
@@ -148,7 +148,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginBottom="70dp"
                     android:fontFamily="@font/nunito_regular"
-                    android:text="@string/terminal_probolinggo"
+                    android:text="@string/terminal_purwokerto"
                     android:textColor="@color/black"
                     android:textSize="15sp" />
 

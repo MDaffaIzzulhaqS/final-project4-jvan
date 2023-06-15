@@ -70,7 +70,7 @@
                 android:layout_height="130dp"
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="8dp"
-                android:src="@drawable/img_logo"
+                android:src="@drawable/logo_ebus"
                 app:civ_border_color="#FF000000"
                 app:civ_border_width="1dp" />
 
@@ -97,7 +97,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    tools:text="kelompok7hacktiv8@gmail.com"
+                    tools:text="Kelompok 6 JVAN Android"
                     android:fontFamily="@font/nunito_bold"
                     android:textColor="@color/black"
                     android:textSize="14sp"

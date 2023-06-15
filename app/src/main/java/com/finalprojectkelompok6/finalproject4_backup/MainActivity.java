@@ -27,24 +27,21 @@ public class MainActivity extends AppCompatActivity {
 
         bottomNav = findViewById(R.id.nav_view);
         frame = findViewById(R.id.f_container);
-//        LoadFragment(new HomeFragment());
+        LoadFragment(new HomeFragment());
 
-//        bottomNav.setOnNavigationItemSelectedListener(item -> {
-//            Fragment fragment = null;
-//            switch (item.getItemId()) {
-//                case R.id.home:
-//                    fragment = new HomeFragment();
-//                    break;
-//                case R.id.history:
-//                    fragment = new HistoryFragment();
-//                    break;
-//                case R.id.profil:
-//                    fragment = new ProfileFragment();
-//                    break;
-//            }
-//            LoadFragment(fragment);
-//            return true;
-//        });
+        bottomNav.setOnNavigationItemSelectedListener(item -> {
+            Fragment fragment = null;
+            int itemId = item.getItemId();
+            if (itemId == R.id.home) {
+                fragment = new HomeFragment();
+            } else if (itemId == R.id.history) {
+                fragment = new HistoryFragment();
+            } else if (itemId == R.id.profil) {
+                fragment = new ProfileFragment();
+            }
+            LoadFragment(fragment);
+            return true;
+        });
     }
 
     //pindah antar fragment
