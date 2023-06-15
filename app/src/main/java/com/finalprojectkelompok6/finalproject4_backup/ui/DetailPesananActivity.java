@@ -187,7 +187,7 @@ public class DetailPesananActivity extends AppCompatActivity implements View.OnC
 
 
             // Add a new document with a generated ID
-            db.collection("Booking").add(detail).addOnSuccessListener(documentReference -> {
+            db.collection("booking").add(detail).addOnSuccessListener(documentReference -> {
                 Log.d(TAG, "DocumentSnapshot added with ID: " + documentReference.getId());
                 Toast.makeText(DetailPesananActivity.this, "Berhasil ditambahkan", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(DetailPesananActivity.this, PaymentSuccess.class);
