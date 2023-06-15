@@ -125,7 +125,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         } else if (binding.from.getSelectedItem().toString().equals("Bandung") && binding.to.getSelectedItem().toString().equals("Surabaya") || binding.from.getSelectedItem().toString().equals("Surabaya") && binding.to.getSelectedItem().toString().equals("Bandung")) {
             jarak = 149;
             linkBus = "";
-        } else if (binding.from.getSelectedItem().toString().equals("Surabaya") && binding.to.getSelectedItem().toString().equals("Purwokerto") || binding.from.getSelectedItem().toString().equals("Purwokerto") && binding.to.getSelectedItem().toString().equals("Malang")) {
+        } else if (binding.from.getSelectedItem().toString().equals("Surabaya") && binding.to.getSelectedItem().toString().equals("Purwokerto") || binding.from.getSelectedItem().toString().equals("Purwokerto") && binding.to.getSelectedItem().toString().equals("Surabaya")) {
             jarak = 124;
             linkBus = "";
         }
