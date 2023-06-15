@@ -10,12 +10,12 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.finalprojectkelompok6.finalproject4_backup.databinding.ActivityPaymentBinding;
-import com.finalprojectkelompok6.finalproject4_backup.Adapter.PaymentAdapter;
-import com.finalprojectkelompok6.finalproject4_backup.Model.Payment;
-import com.finalprojectkelompok6.finalproject4_backup.ui.DetailPesananActivity;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.finalprojectkelompok6.finalproject4_backup.Adapter.PaymentAdapter;
+import com.finalprojectkelompok6.finalproject4_backup.Model.Payment;
+import com.finalprojectkelompok6.finalproject4_backup.databinding.ActivityPaymentBinding;
+import com.finalprojectkelompok6.finalproject4_backup.ui.DetailPesananActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -71,11 +71,11 @@ public class PaymentActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        startActivity(new Intent(PaymentActivity.this, DetailPesananActivity.class));
-    }
+//    @Override
+//    public void onBackPressed() {
+//        super.onBackPressed();
+//        startActivity(new Intent(PaymentActivity.this, DetailPesananActivity.class));
+//    }
 
     private void getMethodPayment() {
         db.collection("Payment").get().addOnCompleteListener(task -> {

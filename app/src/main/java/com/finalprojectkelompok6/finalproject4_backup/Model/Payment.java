@@ -30,4 +30,3 @@ public class Payment {
 
     private String method;
 }
-

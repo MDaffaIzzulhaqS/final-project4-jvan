@@ -12,12 +12,12 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
+import com.google.firebase.firestore.FirebaseFirestore;
 import com.finalprojectkelompok6.finalproject4_backup.PaymentActivity;
 import com.finalprojectkelompok6.finalproject4_backup.Preferences;
 import com.finalprojectkelompok6.finalproject4_backup.R;
 import com.finalprojectkelompok6.finalproject4_backup.SeatActivity;
 import com.finalprojectkelompok6.finalproject4_backup.databinding.ActivityDetailPesananBinding;
-import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.text.NumberFormat;
 import java.util.HashMap;
@@ -81,10 +81,10 @@ public class DetailPesananActivity extends AppCompatActivity implements View.OnC
             intent.putExtra("date", date);
             startActivity(intent);
         });
-        binding.imgBack.setOnClickListener(view1 -> {
-            Intent back = new Intent(DetailPesananActivity.this, SearchActivity.class);
-            startActivity(back);
-        });
+//        binding.imgBack.setOnClickListener(view1 -> {
+//            Intent back = new Intent(DetailPesananActivity.this, SearchActivity.class);
+//            startActivity(back);
+//        });
         getImageBus();
 
     }
@@ -187,7 +187,7 @@ public class DetailPesananActivity extends AppCompatActivity implements View.OnC
 
 
             // Add a new document with a generated ID
-            db.collection("booking").add(detail).addOnSuccessListener(documentReference -> {
+            db.collection("Booking").add(detail).addOnSuccessListener(documentReference -> {
                 Log.d(TAG, "DocumentSnapshot added with ID: " + documentReference.getId());
                 Toast.makeText(DetailPesananActivity.this, "Berhasil ditambahkan", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(DetailPesananActivity.this, PaymentSuccess.class);

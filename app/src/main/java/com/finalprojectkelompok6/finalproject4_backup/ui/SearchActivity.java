@@ -11,13 +11,13 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.finalprojectkelompok6.finalproject4_backup.Adapter.BusAdapter;
 import com.finalprojectkelompok6.finalproject4_backup.MainActivity;
 import com.finalprojectkelompok6.finalproject4_backup.Model.Bus;
 import com.finalprojectkelompok6.finalproject4_backup.R;
 import com.finalprojectkelompok6.finalproject4_backup.databinding.ActivitySearchBinding;
-import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.QueryDocumentSnapshot;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -59,7 +59,7 @@ public class SearchActivity extends AppCompatActivity {
         distance = data.getString("jarak") + " km";
         imgbus = data.getString("imgBus");
 
-        binding.dateSearch.setText(date + " - " + pessenger + " passengers" + " - " + distance);
+        binding.dateSearch.setText(date + " - " + pessenger + " pessengers" + " - " + distance);
         from = binding.fromSearch.getText().toString();
         to = binding.toSearch.getText().toString();
         getBus();
