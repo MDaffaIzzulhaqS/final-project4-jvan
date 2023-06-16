@@ -35,9 +35,9 @@ public class ContactUsActivity extends AppCompatActivity implements View.OnClick
         if (view.getId() == R.id.akun1) {
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/izzulhaqdaffasuyanto/")));
         } else if (view.getId() == R.id.akun2) {
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/izzulhaqdaffasuyanto/")));
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/fnsyhslsbla/")));
         } else if (view.getId() == R.id.akun3) {
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/izzulhaqdaffasuyanto/")));
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/rendi_septiara/")));
         }
     }
 }
