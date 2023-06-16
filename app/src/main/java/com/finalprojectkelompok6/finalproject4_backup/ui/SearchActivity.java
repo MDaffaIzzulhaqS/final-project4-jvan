@@ -73,7 +73,7 @@ public class SearchActivity extends AppCompatActivity {
     private void getBus() {
         binding.simpleProgressBar.setVisibility(View.VISIBLE);
         if (from.equals("Solo") && to.equals("Bandung")) {
-            db.collection("Solo - Bandung").get().addOnCompleteListener(task -> {
+            db.collection("schedule").whereEqualTo("trip", "Solo - Bandung").get().addOnCompleteListener(task -> {
                 list.clear();
                 if (task.isSuccessful()) {
                     for (QueryDocumentSnapshot documentSnapshot : task.getResult()) {
@@ -89,7 +89,7 @@ public class SearchActivity extends AppCompatActivity {
                 }
             }).addOnFailureListener(e -> Toast.makeText(this, "gagal", Toast.LENGTH_SHORT).show());
         } else if (from.equals("Bandung") && to.equals("Surabaya")) {
-            db.collection("Bandung - Surabaya").get().addOnCompleteListener(task -> {
+            db.collection("schedule").whereEqualTo("trip", "Bandung - Surabaya").get().addOnCompleteListener(task -> {
                 list.clear();
                 if (task.isSuccessful()) {
                     for (QueryDocumentSnapshot documentSnapshot : task.getResult()) {
@@ -105,7 +105,7 @@ public class SearchActivity extends AppCompatActivity {
                 }
             }).addOnFailureListener(e -> Toast.makeText(this, "gagal", Toast.LENGTH_SHORT).show());
         } else if (from.equals("Surabaya") && to.equals("Purwokerto")) {
-            db.collection("Surabaya - Purwokerto").get().addOnCompleteListener(task -> {
+            db.collection("schedule").whereEqualTo("trip", "Surabaya - Purwokerto").get().addOnCompleteListener(task -> {
                 list.clear();
                 if (task.isSuccessful()) {
                     for (QueryDocumentSnapshot documentSnapshot : task.getResult()) {
